@@ -1,0 +1,132 @@
+.navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+.nav-link{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 134.77%;
+/* or 24px */
+text-align: center;
+color: #000000!important;
+padding: 8px 32px;
+}
+.nav-link{
+    padding: 8px 16px;
+}
+.nav-link:hover {
+    border-bottom: 4px solid #E8380D;;
+    cursor: pointer;
+    }
+.btn-primary {
+    color: white;
+    background-color: #E8380D;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: none;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #88B04B!important;
+    border-radius: 5px;
+    padding: 8px 16px;
+    border: none;
+}
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+/* identical to box height */
+    text-align: center;
+    color: #000000;
+    }
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: gray;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+/* or 144% */
+    text-align: center;
+    color: #000000;
+}
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+/* or 144% */
+    text-align: center;
+    color: #000000;
+}
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;  
+    }
+.container-hero{
+    margin: auto;
+}
+.card-group{
+    padding: 24px 160px;
+}
+.card{
+    padding: 24px;
+    border: none;
+}
+.card-body{
+    padding: 16px;
+}
+.card-title{
+    line-height: 6px;
+}
+.card-text{
+    padding-top: 10px;
+}
+.lead{
+    padding: 8px 160px;
+}
+.ways{
+    background-color:  #474747;
+    align-items: center;
+}
+.ways h1 {
+    color: white;
+    padding-top: 60px;
+}
+.ways p{
+    color: white;
+}
+.dark{
+    background-color: #474747;
+}
+.card-group{
+    padding-top: 0px;
+}

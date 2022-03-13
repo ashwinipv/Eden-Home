@@ -1,0 +1,56 @@
+.navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    justify-content: flex-end;
+}
+.nav-link{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 134.77%;
+/* or 24px */
+text-align: center;
+color: #000000;
+}
+.nav-link:hover {
+    border-bottom: 2px solid #E8380D;;
+    cursor: pointer;
+    }
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+/* identical to box height */
+    text-align: center;
+    color: #000000;
+    }
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+/* or 144% */
+    text-align: center;
+    color: #000000;
+}
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;  
+    }

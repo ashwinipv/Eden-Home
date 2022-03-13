@@ -10,11 +10,17 @@
     <!-- This is REQUIRED for bootstrap to work correctly -->
 
     <!-- This stylesheet is an example of how you can add your own stylesheet to customize bootstrap components. Notice how it is loaded 2nd to the required bootstrap stylesheet. This is so our stylesheet will overwrite bootstrap classes when we apply the same class but different styles to the stylsheet -->
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
     <title>Eden Food For Change - Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
   </head>
   <body>
+    <!-- navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
@@ -22,7 +28,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul style="padding-right: 16px;" class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link" href="#">Get Food</a>
               </li>
@@ -50,14 +56,15 @@
                 <a class="nav-link" href="#">Contact Us</a>
               </li>
             </ul>
-              <button class="btn btn-outline-success" type="submit">Donate Now</button>
+              <button class="btn-primary" type="submit">Donate Now</button>
           </div>
         </div>
     </nav>
+    <!-- hero section-->
     <section class="hero">
         <div class="jumbotron jumbotron-fluid">
             <img src="images/hero.png" alt="An image of variety of canned food and fresh produce on a charcoal colored kitchen counter.">
-            <div class="container">
+            <div class="container-hero">
               <h1 class="display-4">About Eden</h1>
               <p class="lead">A place where everyone in western Mississauga can be a part of a community focused on good food. Through our food bank we provide access to nutritionally balanced groceries. Our kitchen programs teach people the skills and knowledge to provide healthy meals.
             </p>
@@ -75,12 +82,13 @@
             </div>
           </div>
     </section>
+    <!-- testimonial section-->
     <section class="testimonial">
         <h1 class="display-4">Testimonial</h1>
         <p class="lead">Listen to what people have to say about EFFC.</p>
         <div class="card-group">
             <div class="card">
-              <img src="images/test1.png" class="card-img-top" alt="...">
+              <img src="images/test2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h3 class="card-title">John Smith</h3>
                 <h6>Tour Operator</h6>
@@ -96,7 +104,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="images/test3.png" class="card-img-top" alt="...">
+              <img src="images/test2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h3 class="card-title">Nicollette Larson</h3>
                 <h6>Chef</h6>
@@ -105,29 +113,30 @@
             </div>
           </div> 
     </section>
+    <!-- Ways to get involved section-->
     <section class="ways">
         <h1 class="display-4">Ways to get involved</h1>
         <p class="lead">We  want to build a stronger community through food with help of  individuals and organizations. Come relieve hunger in Mississauga by providing and promoting access to nutritious food for people in need many ways. Who doesn't enjoy excellent food?</p>
         <div class="card-group">
-            <div class="card">
+            <div class="card dark">
               <img src="images/ways1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Make a difference by showing your love.</p>
-                <button>Donate Now</button>
+                <button class="btn-primary">Donate Now</button>
               </div>
             </div>
-            <div class="card">
+            <div class="card dark">
               <img src="images/ways2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Be a part of your community by expressing you care.</p>
-                <button>Volunteer</button>
+                <button class="btn-primary">Volunteer</button>
               </div>
             </div>
-            <div class="card">
+            <div class="card dark">
                 <img src="images/ways3.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Our learning kitchen provides employment training.</p>
-                  <button>Learn More</button>
+                  <p class="card-text">Our learning kitchen provides you with new skills.</p>
+                  <button class="btn-primary">Learn More</button>
                 </div>
             </div>
           </div> 
