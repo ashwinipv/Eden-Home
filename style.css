@@ -36,16 +36,11 @@
     background-color: #474747;
 }
 
-.nav {
+nav {
     background-color:white;
     position:sticky;
 }
-.navbar-collapse {
-    display: -ms-flexbox!important;
-    display: flex!important;
-    -ms-flex-preferred-size: auto;
-    flex-basis: auto;
-    justify-content: flex-end;
+
 }
 .nav-link{
 font-family: 'Inter', sans-serif;
@@ -66,7 +61,11 @@ padding: 8px 32px;
     border-bottom: 4px solid #E8380D;;
     cursor: pointer;
     }
-
+.top-nav a ul li{
+float:right;
+color:blue;
+padding:10px;
+}
     .btn-primary {
         color: white;
         background-color: #E8380D;
@@ -75,6 +74,8 @@ padding: 8px 32px;
         border: none;
         
     }
+
+   
     .btn-primary:hover {
         color: white;
         background-color: #252525!important;
